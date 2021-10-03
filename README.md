@@ -1,1 +1,1 @@
-This repo is holds intersting programs in python
+My first public repo
