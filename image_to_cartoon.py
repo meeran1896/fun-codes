@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-filename="1.jpg"
+filename="pp.jpg"
 def resizeImage(image):
     scale_ratio = 0.3
     width = int(image.shape[1] * scale_ratio)
