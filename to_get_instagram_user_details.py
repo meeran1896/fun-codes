@@ -1,3 +1,4 @@
+#install instagramy
 from instagramy import InstagramUser
 # user input
 name = input("Enter user name:")
@@ -12,3 +13,9 @@ print('Total followings:',following)
 # total number of posts
 posts = user.number_of_posts
 print('Total posts:',posts)
+#bio description
+bio = user.biography
+print('Bio:\n',bio)
+#link in bio
+link_in_bio = user.website
+print("Link in Bio:",link_in_bio)
