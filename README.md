@@ -1,1 +1,1 @@
-My first public repo
+python for beginners
