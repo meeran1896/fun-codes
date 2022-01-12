@@ -38,3 +38,9 @@ print('Bio:\n',bio)
 #link in bio
 link_in_bio = user.website
 print("Link in Bio:",link_in_bio)
+
+#Download youtube videos
+import webbrowser
+url = input("Enter youtube url to download")
+download = url[:12] + "ss" + url[12:]
+webbrowser.open(download)
