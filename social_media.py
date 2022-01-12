@@ -1,3 +1,4 @@
+#Get instagram profile pictures and posts
 #install instaloader,Pillow
 # import required modules
 import instaloader
