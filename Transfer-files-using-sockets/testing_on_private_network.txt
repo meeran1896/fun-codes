@@ -1,0 +1,14 @@
+#trying in own local network
+C:\> python receiver.py
+
+[*] Listening as 0.0.0.0:5001
+
+#I need to go to linux box and send an example file:
+root@rockikz:~/tools# python3 sender.py
+[+] Connecting to 192.168.1.101:5001
+[+] Connected.
+Sending data.npy:   9%|███████▊  
+
+#Let see in the server now:
+[+] ('192.168.1.101', 47618) is connected.
+Receiving data.npy:  33%|███████████████████▍                                       | 160M/487M [01:04<04:15, 1.34MB/s]
