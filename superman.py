@@ -111,3 +111,5 @@ def superman()
 
     t.hideturtle() #use this command to hide the turtle so it is not visible in the final image
     turtle.exitonclick() #this command will leave the window open until it is clicked
+ if __name__ == '__main__':
+    superman()
